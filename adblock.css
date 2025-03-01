@@ -1,0 +1,35 @@
+body {
+	background: #000;
+}
+
+button {
+	text-align: center;
+	background-color: red;
+	color: blue;
+	margin: 50px;
+	font-size: 25px;
+	transition: 0.3s;
+	transition: font-size 1s;
+	border: rgba(255, 0, 0, 0.5);
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: blue;
+	color: red;
+	border: rgba(0, 0, 255, 0.5);
+	border-radius: 10px;
+}
+
+button:active {
+	font-size: 100px;
+}
+
+div {
+	text-align: center;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+}

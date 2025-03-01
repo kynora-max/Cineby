@@ -1,0 +1,56 @@
+body {
+	background: #000 url("images/giphy.gif") repeat-x fixed center;
+}
+
+img {
+	width: 100px;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 35px;
+}
+
+#pblue {
+	color: blue;
+	font-family: fantasy;
+	font-size: 25px;
+}
+
+p {
+	color: red;
+	font-family: cursive;
+}
+
+div.a {
+	text-align: center;
+}
+
+div.b {
+	text-align: left;
+
+}
+
+button {
+	background-color: red;
+	color: white;
+	font-size: 16px;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5x;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	transition: color 0.3s;
+	transition: font-size 1s;
+}
+
+button:hover {
+	background-color: blue;
+	color: red;
+}
+
+button:active {
+	font-size: 100px;
+}
